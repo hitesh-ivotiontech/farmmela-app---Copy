@@ -1,0 +1,45 @@
+ require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '10.0'
+
+target 'farmmela' do
+  # Pods for farmmela
+   config = use_native_modules!
+#   pod 'React', :path => '../node_modules/react-native/'
+   pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
+#   pod 'Firebase/Auth'
+   pod 'Firebase/Database'
+   pod 'Firebase/Messaging', '~> 4.0.0'
+   pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+
+   permissions_path = '../node_modules/react-native-permissions/ios'
+   pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
+   pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
+   pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
+   use_react_native!(
+     :path => config[:reactNativePath],
+     # to enable hermes on iOS, change `false` to `true` and then install pods
+     :hermes_enabled => false
+   )
+
+  pod 'react-native-image-resizer', :path => '../node_modules/react-native-image-resizer'
+
+  target 'farmmelaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+  
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable the next line.
+   use_flipper!()
+
+   post_install do |installer|
+     react_native_post_install(installer)
+   end
+ end
+
+

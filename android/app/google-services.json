@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "843213147896",
+    "firebase_url": "https://farmmelaandroid-default-rtdb.firebaseio.com",
+    "project_id": "farmmelaandroid",
+    "storage_bucket": "farmmelaandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843213147896:android:ef80d9f213036c925f350d",
+        "android_client_info": {
+          "package_name": "com.farmmela"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843213147896-me6ful1sfdcvre6qa0lq5th3qtgkbgtb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhw2ZZMuJx9k2TdPOVUQZwpLxObYXWLu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843213147896-me6ful1sfdcvre6qa0lq5th3qtgkbgtb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "843213147896-o4k786smp7gasmdka63g1dd0ot6hov13.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.FarmMela.fusioninformatics"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843213147896:android:8adbfd5bd7d5acf35f350d",
+        "android_client_info": {
+          "package_name": "com.farmmelaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843213147896-me6ful1sfdcvre6qa0lq5th3qtgkbgtb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhw2ZZMuJx9k2TdPOVUQZwpLxObYXWLu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843213147896-me6ful1sfdcvre6qa0lq5th3qtgkbgtb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "843213147896-o4k786smp7gasmdka63g1dd0ot6hov13.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.FarmMela.fusioninformatics"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

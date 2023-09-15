@@ -1,0 +1,28 @@
+export const colors = {
+    white: "#ffff",
+    lightgrey: '#f7f7f7',
+    green: "#819c3c",
+    greenFrom: "#92c70d",
+    greenTo: "#809b3c",
+    greenHeaderFrom: "#83d9ba",
+    greenHeaderTo: "#cef5b5",
+    lightgrey1: "#AEB9C8",
+    black: "black",
+    yellow: '#f6e58d',
+    CashCropsGrid: "#ECE9FE",
+    DairyGrid: '#D5F5FE',
+    FisheryGrid: '#E8E5E5',
+    LivestocksGrid: '#F8EED8',
+    FruitsGrid: '#FBEFAC',
+    VegetablesGrid: '#E0F5C5',
+    SpicesGrid: '#FADCB3',
+    HandicraftGrid: '#F0E084',
+    FlowersGrid: '#E7E4FF',
+    purpleCalendar: '#682c94',
+    pinkCalendar: '#f0145c',
+    orangeCalendar: '#f88c54',
+    blueCalendar: '#08acec',
+    mediumGrey: '#ececec',
+    red:'#FF0000'
+
+}
